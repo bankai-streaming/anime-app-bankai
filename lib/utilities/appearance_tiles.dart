@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:tiani/functionality/app_logic.dart';
+import 'package:bankai_streaming/functionality/app_logic.dart';
 class ColorTile extends StatefulWidget {
   final Color? color;
   final String? imagePath;

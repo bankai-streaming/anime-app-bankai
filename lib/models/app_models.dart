@@ -1,4 +1,4 @@
-import 'package:tiani/models/anime_model.dart';
+import 'package:bankai_streaming/models/anime_model.dart';
 
 class AccountModel{
   final String name;

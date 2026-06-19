@@ -3,8 +3,8 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:tiani/functionality/app_logic.dart';
-import 'package:tiani/models/anime_model.dart';
+import 'package:bankai_streaming/functionality/app_logic.dart';
+import 'package:bankai_streaming/models/anime_model.dart';
 
 import '../pages/details_page.dart';
 class HomeTile extends StatefulWidget {

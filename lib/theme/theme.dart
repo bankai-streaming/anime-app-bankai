@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:tiani/functionality/app_logic.dart';
-import 'package:tiani/functionality/data.dart';
+import 'package:bankai_streaming/functionality/app_logic.dart';
+import 'package:bankai_streaming/functionality/data.dart';
 
 ThemeData lightTheme = ThemeData(
   brightness: Brightness.light,

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tiani/services/anime_service.dart';
-import 'package:tiani/utilities/constants.dart';
+import 'package:bankai_streaming/services/anime_service.dart';
+import 'package:bankai_streaming/utilities/constants.dart';
 import '../models/anime_model.dart';
 import '../utilities/dummy_widgets.dart';
 import '../utilities/home_tile.dart';

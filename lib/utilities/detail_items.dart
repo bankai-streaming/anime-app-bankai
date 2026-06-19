@@ -4,11 +4,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import 'package:tiani/functionality/app_logic.dart';
-import 'package:tiani/models/anime_model.dart';
-import 'package:tiani/models/review_model.dart';
-import 'package:tiani/pages/review_page.dart';
-import 'package:tiani/theme/theme.dart';
+import 'package:bankai_streaming/functionality/app_logic.dart';
+import 'package:bankai_streaming/models/anime_model.dart';
+import 'package:bankai_streaming/models/review_model.dart';
+import 'package:bankai_streaming/pages/review_page.dart';
+import 'package:bankai_streaming/theme/theme.dart';
 
 class SeasonTile extends StatefulWidget {
 

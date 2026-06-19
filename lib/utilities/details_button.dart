@@ -3,7 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:tiani/functionality/app_logic.dart';
+import 'package:bankai_streaming/functionality/app_logic.dart';
 class DetailsButton extends StatefulWidget {
   final String buttonTxt;
   final bool autofocus;

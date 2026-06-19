@@ -1,10 +1,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:tiani/functionality/data.dart';
-import 'package:tiani/models/anime_model.dart';
-import 'package:tiani/theme/theme.dart';
-import 'package:tiani/utilities/account_items.dart';
+import 'package:bankai_streaming/functionality/data.dart';
+import 'package:bankai_streaming/models/anime_model.dart';
+import 'package:bankai_streaming/theme/theme.dart';
+import 'package:bankai_streaming/utilities/account_items.dart';
 
 import '../models/app_models.dart';
 

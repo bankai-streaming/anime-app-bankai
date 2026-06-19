@@ -3,15 +3,15 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
 import 'package:provider/provider.dart';
-import 'package:tiani/functionality/app_logic.dart';
-import 'package:tiani/models/anime_model.dart';
-import 'package:tiani/pages/details.dart';
-import 'package:tiani/pages/trailer_page.dart';
-import 'package:tiani/utilities/mods.dart';
-import 'package:tiani/pages/account_page.dart';
-import 'package:tiani/pages/search_page.dart';
-import 'package:tiani/pages/settings_page.dart';
-import 'package:tiani/utilities/details_button.dart';
+import 'package:bankai_streaming/functionality/app_logic.dart';
+import 'package:bankai_streaming/models/anime_model.dart';
+import 'package:bankai_streaming/pages/details.dart';
+import 'package:bankai_streaming/pages/trailer_page.dart';
+import 'package:bankai_streaming/utilities/mods.dart';
+import 'package:bankai_streaming/pages/account_page.dart';
+import 'package:bankai_streaming/pages/search_page.dart';
+import 'package:bankai_streaming/pages/settings_page.dart';
+import 'package:bankai_streaming/utilities/details_button.dart';
 
 class DetailsPage extends StatefulWidget {
   final AnimeModel anime;

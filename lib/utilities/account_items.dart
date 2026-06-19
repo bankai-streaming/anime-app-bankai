@@ -4,9 +4,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:tiani/functionality/app_logic.dart';
-import 'package:tiani/models/app_models.dart';
-import 'package:tiani/utilities/character_tile.dart';
+import 'package:bankai_streaming/functionality/app_logic.dart';
+import 'package:bankai_streaming/models/app_models.dart';
+import 'package:bankai_streaming/utilities/character_tile.dart';
 
 import 'mods.dart';
 

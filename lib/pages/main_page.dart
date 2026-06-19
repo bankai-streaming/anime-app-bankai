@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hugeicons/hugeicons.dart';
 import 'package:provider/provider.dart';
-import 'package:tiani/functionality/app_logic.dart';
-import 'package:tiani/pages/account_page.dart';
-import 'package:tiani/pages/search_page.dart';
-import 'package:tiani/pages/serrie_page.dart';
-import 'package:tiani/pages/settings_page.dart';
-import 'package:tiani/pages/watch_list.dart';
+import 'package:bankai_streaming/functionality/app_logic.dart';
+import 'package:bankai_streaming/pages/account_page.dart';
+import 'package:bankai_streaming/pages/search_page.dart';
+import 'package:bankai_streaming/pages/serrie_page.dart';
+import 'package:bankai_streaming/pages/settings_page.dart';
+import 'package:bankai_streaming/pages/watch_list.dart';
 
 import '../utilities/mods.dart';
 import 'home_page.dart';
@@ -150,7 +150,7 @@ class _MainPageState extends State<MainPage> {
                           children: [
                             (data.showAppBar == true)?ModedAppBar(
                               leading: SizedBox(),//(data.showAppBar = true)?Icon(Icons.snowboarding)/*ModedIconButton(onPressed: ()=>setState(() {}), icon: Icons.snowboarding)*/:Text(""),
-                              //leading: Center(child: Container(width:200,color:Colors.red,child: Text("Uanimurs",style: TextStyle(fontSize: 20,color: data.tertiaryColor),))),
+                              //leading: Center(child: Container(width:200,color:Colors.red,child: Text("Bankai Streaming",style: TextStyle(fontSize: 20,color: data.tertiaryColor),))),
                               action1: ModedIconButton(onPressed: ()=>Navigator.push(context,MaterialPageRoute(builder: (context)=>SearchPage())), icon: HugeIcons.strokeRoundedSearch01),
                               action2: ModedIconButton(onPressed: ()=>Navigator.push(context,MaterialPageRoute(builder: (context)=>AccountPage())), icon: HugeIcons.strokeRoundedUserCircle),
                               action3: ModedIconButton(onPressed: ()=>Navigator.push(context,MaterialPageRoute(builder: (context)=>SettingsPage())), icon: HugeIcons.strokeRoundedSettings03),

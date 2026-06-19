@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:tiani/functionality/app_logic.dart';
-import 'package:tiani/models/anime_model.dart';
-import 'package:tiani/models/character_model.dart';
-import 'package:tiani/models/review_model.dart';
-import 'package:tiani/pages/review_page.dart';
-import 'package:tiani/services/anime_service.dart';
-import 'package:tiani/services/character_service.dart';
-import 'package:tiani/utilities/character_tile.dart';
-import 'package:tiani/utilities/constants.dart';
-import 'package:tiani/utilities/detail_items.dart';
-import 'package:tiani/utilities/dummy_widgets.dart';
-import 'package:tiani/utilities/mods.dart';
+import 'package:bankai_streaming/functionality/app_logic.dart';
+import 'package:bankai_streaming/models/anime_model.dart';
+import 'package:bankai_streaming/models/character_model.dart';
+import 'package:bankai_streaming/models/review_model.dart';
+import 'package:bankai_streaming/pages/review_page.dart';
+import 'package:bankai_streaming/services/anime_service.dart';
+import 'package:bankai_streaming/services/character_service.dart';
+import 'package:bankai_streaming/utilities/character_tile.dart';
+import 'package:bankai_streaming/utilities/constants.dart';
+import 'package:bankai_streaming/utilities/detail_items.dart';
+import 'package:bankai_streaming/utilities/dummy_widgets.dart';
+import 'package:bankai_streaming/utilities/mods.dart';
 class Intro extends StatelessWidget {
   final AnimeModel anime;
   const Intro({

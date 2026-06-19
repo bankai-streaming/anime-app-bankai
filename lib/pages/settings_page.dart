@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
 import 'package:provider/provider.dart';
-import 'package:tiani/functionality/app_logic.dart';
-import 'package:tiani/pages/account_page.dart';
-import 'package:tiani/pages/search_page.dart';
-import 'package:tiani/pages/setting.dart';
-import 'package:tiani/utilities/settings_tiles.dart';
+import 'package:bankai_streaming/functionality/app_logic.dart';
+import 'package:bankai_streaming/pages/account_page.dart';
+import 'package:bankai_streaming/pages/search_page.dart';
+import 'package:bankai_streaming/pages/setting.dart';
+import 'package:bankai_streaming/utilities/settings_tiles.dart';
 
 import '../utilities/mods.dart';
 import 'main_page.dart';

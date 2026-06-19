@@ -2,7 +2,7 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:http/http.dart'as http;
-import 'package:tiani/models/review_model.dart';
+import 'package:bankai_streaming/models/review_model.dart';
 import '../models/anime_model.dart';
 class AnimeService{
   // TOTAL ANIMES

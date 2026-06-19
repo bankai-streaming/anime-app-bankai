@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:tiani/services/anime_service.dart';
-import 'package:tiani/utilities/constants.dart';
-import 'package:tiani/utilities/dummy_widgets.dart';
-import 'package:tiani/utilities/home_banner.dart';
-import 'package:tiani/utilities/home_tile.dart';
+import 'package:bankai_streaming/services/anime_service.dart';
+import 'package:bankai_streaming/utilities/constants.dart';
+import 'package:bankai_streaming/utilities/dummy_widgets.dart';
+import 'package:bankai_streaming/utilities/home_banner.dart';
+import 'package:bankai_streaming/utilities/home_tile.dart';
 import '../models/anime_model.dart';
 class HomePage extends StatefulWidget {
   HomePage({super.key});

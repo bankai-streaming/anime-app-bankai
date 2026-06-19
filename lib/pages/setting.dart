@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:tiani/functionality/app_logic.dart';
-import 'package:tiani/functionality/data.dart';
-import 'package:tiani/utilities/preference_items.dart';
+import 'package:bankai_streaming/functionality/app_logic.dart';
+import 'package:bankai_streaming/functionality/data.dart';
+import 'package:bankai_streaming/utilities/preference_items.dart';
 
 import '../utilities/appearance_tiles.dart';
 import '../utilities/settings_tiles.dart';
@@ -305,7 +305,7 @@ class About extends StatelessWidget {
                       buttonName: "App name",
                       autofocus: false,
                       onEnter: () {},
-                      action: Text("Tiani"),
+                      action: Text("Bankai Streaming"),
                     ),
                     SettingsTiles(
                       buttonName: "Version",

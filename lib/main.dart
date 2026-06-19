@@ -3,13 +3,13 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:tiani/functionality/app_logic.dart';
-import 'package:tiani/pages/home_page.dart';
-import 'package:tiani/pages/main_page.dart';
-import 'package:tiani/pages/welcome_page.dart';
-import 'package:tiani/services/anime_service.dart';
-import 'package:tiani/services/http_override.dart';
-import 'package:tiani/utilities/mods.dart';
+import 'package:bankai_streaming/functionality/app_logic.dart';
+import 'package:bankai_streaming/pages/home_page.dart';
+import 'package:bankai_streaming/pages/main_page.dart';
+import 'package:bankai_streaming/pages/welcome_page.dart';
+import 'package:bankai_streaming/services/anime_service.dart';
+import 'package:bankai_streaming/services/http_override.dart';
+import 'package:bankai_streaming/utilities/mods.dart';
 
 import 'models/anime_model.dart';
 
@@ -41,7 +41,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return Consumer<AppLogic>(
       builder:(context,data,child)=> MaterialApp(
-        title:  "TiAni",
+        title: "Bankai Streaming",
         theme: Provider.of<AppLogic>(context).currentTheme,
         home: /*MainPage()*/FutureBuilder(
           future: animes,
