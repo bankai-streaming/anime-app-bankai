@@ -3,7 +3,7 @@
     <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
-        android:label="TiAni"
+        android:label="Bankai Streaming"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:banner="@mipmap/ic_launcher">

@@ -1,11 +1,11 @@
 {
-    "name": "tiani",
-    "short_name": "tiani",
+    "name": "Bankai Streaming",
+    "short_name": "Bankai",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Bankai Streaming — Anime streaming and discovery application.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
